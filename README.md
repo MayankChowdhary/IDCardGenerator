@@ -22,7 +22,7 @@ Download setup file link: https://github.com/MayankChowdhary/IDCardGenerator/tre
   <tr>
     <td><img src="https://github.com/MayankChowdhary/IDCardGenerator/blob/master/screenshots/IDCard5.png" >
 </td>
-    <td><img src="https://github.com/MayankChowdhary/IDCardGenerator/blob/master/screenshots/IDCard6.png" >
+    <td><img src="https://github.com/MayankChowdhary/IDCardGenerator/blob/master/screenshots/IDCard7.png" >
 </td>
 </tr>
 </table>
