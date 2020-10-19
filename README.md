@@ -1,6 +1,7 @@
 # IDCardGenerator
 This is a Visual Basic .NET Windows desktop app project. This ID-Card Generator app is used to generate and print ID cards of Students. 
 Generated ID-cards can also be saved as PDF file. All ID-Card databases will be saved in SQL Server database for later use.
+Download setup file link: https://github.com/MayankChowdhary/IDCardGenerator/tree/master/setup
 <table style="width:100%">
   <tr>
     <td><img src="https://github.com/MayankChowdhary/IDCardGenerator/blob/master/screenshots/IDCard1.png" >
