@@ -15,7 +15,7 @@ Option Explicit On
 Namespace My
     
     <Global.System.Runtime.CompilerServices.CompilerGeneratedAttribute(),  _
-     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "10.0.0.0"),  _
+     Global.System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.7.0.0"),  _
      Global.System.ComponentModel.EditorBrowsableAttribute(Global.System.ComponentModel.EditorBrowsableState.Advanced)>  _
     Partial Friend NotInheritable Class MySettings
         Inherits Global.System.Configuration.ApplicationSettingsBase
@@ -29,7 +29,7 @@ Namespace My
     Private Shared addedHandlerLockObject As New Object
 
     <Global.System.Diagnostics.DebuggerNonUserCodeAttribute(), Global.System.ComponentModel.EditorBrowsableAttribute(Global.System.ComponentModel.EditorBrowsableState.Advanced)> _
-    Private Shared Sub AutoSaveSettings(ByVal sender As Global.System.Object, ByVal e As Global.System.EventArgs)
+    Private Shared Sub AutoSaveSettings(sender As Global.System.Object, e As Global.System.EventArgs)
         If My.Application.SaveMySettingsOnExit Then
             My.Settings.Save()
         End If
@@ -51,83 +51,6 @@ Namespace My
                 End If
 #End If
                 Return defaultInstance
-            End Get
-        End Property
-        
-        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=.\SQLEXPRESS\SQLEXPRESS;AttachDbFilename=|DataDirectory|\IdCard_DB.md"& _ 
-            "f;Integrated Security=True;Connect Timeout=30;User Instance=True")>  _
-        Public ReadOnly Property IdCard_DBConnectionString() As String
-            Get
-                Return CType(Me("IdCard_DBConnectionString"),String)
-            End Get
-        End Property
-        
-        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=.\SQLEXPRESS\SQLEXPRESS;AttachDbFilename=D:\IDcard_Generator\IdCard_D"& _ 
-            "B.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True")>  _
-        Public ReadOnly Property IdCard_DBConnectionString1() As String
-            Get
-                Return CType(Me("IdCard_DBConnectionString1"),String)
-            End Get
-        End Property
-        
-        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=.\SQLEXPRESS\MSSQLSERVER2;AttachDbFilename=|DataDirectory|\IdCard_DB."& _ 
-            "mdf;Integrated Security=True;Connect Timeout=30;User Instance=True")>  _
-        Public ReadOnly Property IdCard_DBConnectionString2() As String
-            Get
-                Return CType(Me("IdCard_DBConnectionString2"),String)
-            End Get
-        End Property
-        
-        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=.\SQLEXPRESS\MYSQL_SERVER;AttachDbFilename=|DataDirectory|\IdCard_DB."& _ 
-            "mdf;Integrated Security=True;Connect Timeout=30;User Instance=True")>  _
-        Public ReadOnly Property IdCard_DBConnectionString3() As String
-            Get
-                Return CType(Me("IdCard_DBConnectionString3"),String)
-            End Get
-        End Property
-        
-        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=.\SQLEXPRESS;AttachDbFilename=D:\IDcard_Generator\IdCard_DB.mdf;Integ"& _ 
-            "rated Security=True;Connect Timeout=30;User Instance=True")>  _
-        Public ReadOnly Property IdCard_DBConnectionString4() As String
-            Get
-                Return CType(Me("IdCard_DBConnectionString4"),String)
-            End Get
-        End Property
-        
-        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\IdCard_DB.mdf;Integrate"& _ 
-            "d Security=True;Connect Timeout=30;User Instance=True")>  _
-        Public ReadOnly Property IdCard_DBConnectionString5() As String
-            Get
-                Return CType(Me("IdCard_DBConnectionString5"),String)
-            End Get
-        End Property
-        
-        <Global.System.Configuration.ApplicationScopedSettingAttribute(),  _
-         Global.System.Diagnostics.DebuggerNonUserCodeAttribute(),  _
-         Global.System.Configuration.SpecialSettingAttribute(Global.System.Configuration.SpecialSetting.ConnectionString),  _
-         Global.System.Configuration.DefaultSettingValueAttribute("Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\ID_Card_DBN.mdf;Integra"& _ 
-            "ted Security=True;Connect Timeout=30;User Instance=True")>  _
-        Public ReadOnly Property ID_Card_DBNConnectionString() As String
-            Get
-                Return CType(Me("ID_Card_DBNConnectionString"),String)
             End Get
         End Property
         

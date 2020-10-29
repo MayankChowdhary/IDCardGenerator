@@ -14,7 +14,7 @@ Public Class HomeScreen
     Dim adapter As SqlDataAdapter
     Dim ds As DataSet
     Dim rno As Integer
-    Dim strSQLConn As String = "Data Source=.;AttachDbFilename=C:\Users\I'M Slave\Documents\IdCard_DB.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True"
+    Dim strSQLConn As String = "Data Source=.;AttachDbFilename=C:\Users\THOR\Documents\Visual Studio 2010\Projects\ID-Card Generator\ID-Card Generator\IdCard_DB.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True"
     Dim strQuery As String
     Public Roll As Integer
     Public preview As Boolean
@@ -38,7 +38,7 @@ Public Class HomeScreen
         ComboBox1.ItemHeight = 20
         Dim objFontFamily As FontFamily
         Dim objFontCollection As System.Drawing.Text.FontCollection
-        Dim tempFont As Font
+
         objFontCollection = New System.Drawing.Text.InstalledFontCollection()
         For Each objFontFamily In objFontCollection.Families
             ComboBox1.Items.Add(objFontFamily.Name)
@@ -51,7 +51,7 @@ Public Class HomeScreen
         ComboBox2.ItemHeight = 20
         Dim objFontFamily As FontFamily
         Dim objFontCollection As System.Drawing.Text.FontCollection
-        Dim tempFont As Font
+
         objFontCollection = New System.Drawing.Text.InstalledFontCollection()
         For Each objFontFamily In objFontCollection.Families
             ComboBox2.Items.Add(objFontFamily.Name)
@@ -80,7 +80,9 @@ Public Class HomeScreen
             ElseIf _fontfamily.IsStyleAvailable(FontStyle.Italic) Then
                 _font = New Font(_fontfamily, 14, FontStyle.Italic)
             End If
+#Disable Warning BC42104 ' Variable is used before it has been assigned a value
             e.Graphics.DrawString(_FontName, _font, objBrush, e.Bounds)
+#Enable Warning BC42104 ' Variable is used before it has been assigned a value
 
         Finally
             If objBrush IsNot Nothing Then
@@ -107,7 +109,9 @@ Public Class HomeScreen
             ElseIf _fontfamily.IsStyleAvailable(FontStyle.Italic) Then
                 _font = New Font(_fontfamily, 14, FontStyle.Italic)
             End If
+#Disable Warning BC42104 ' Variable is used before it has been assigned a value
             e.Graphics.DrawString(_FontName, _font, objBrush, e.Bounds)
+#Enable Warning BC42104 ' Variable is used before it has been assigned a value
 
         Finally
             If objBrush IsNot Nothing Then

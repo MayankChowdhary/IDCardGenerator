@@ -6,7 +6,7 @@ Public Class DatabaseScreen
     Dim adapter As SqlDataAdapter
     Dim ds As New DataSet
     Dim rno As Integer
-    Dim strSQLConn As String = "Data Source=.;AttachDbFilename=C:\Users\I'M Slave\Documents\IdCard_DB.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True"
+    Dim strSQLConn As String = "Data Source=.;AttachDbFilename=C:\Users\THOR\Documents\Visual Studio 2010\Projects\ID-Card Generator\ID-Card Generator\IdCard_DB.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True"
     Dim strQuery As String = "Select  * from IDcard"
     Public Roll As Integer
 

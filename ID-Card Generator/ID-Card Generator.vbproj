@@ -16,7 +16,7 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\I%27M Slave\Desktop\Project Files\ID-Card Generator Setup\</PublishUrl>
+    <PublishUrl>C:\Users\THOR\Documents\ID-Card Generator Setup\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
@@ -28,7 +28,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ProductName>ID-Card Generator</ProductName>
     <PublisherName>MC-Technologies</PublisherName>
-    <ApplicationRevision>55</ApplicationRevision>
+    <ApplicationRevision>57</ApplicationRevision>
     <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>true</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -80,7 +80,7 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
@@ -181,7 +181,6 @@
     <None Include="app.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="ID-Card Generator_TemporaryKey.pfx" />
     <None Include="IDCard_DBDataSet.xsc">
       <DependentUpon>IDCard_DBDataSet.xsd</DependentUpon>
     </None>
@@ -220,9 +219,9 @@
     <Content Include="IdCard_DB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="IdCard_DB_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    <Content Include="IdCard_DB_log.LDF">
       <DependentUpon>IdCard_DB.mdf</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="User.ico" />
   </ItemGroup>
