@@ -14,7 +14,7 @@ Public Class HomeScreen
     Dim adapter As SqlDataAdapter
     Dim ds As DataSet
     Dim rno As Integer
-    Dim strSQLConn As String = "Data Source=.;AttachDbFilename=C:\Users\THOR\Documents\Visual Studio 2010\Projects\ID-Card Generator\ID-Card Generator\IdCard_DB.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True"
+    Dim strSQLConn As String = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\IDCardGenDB.mdf;Integrated Security=True"
     Dim strQuery As String
     Public Roll As Integer
     Public preview As Boolean
@@ -226,7 +226,6 @@ Public Class HomeScreen
                     conv_logo()
                     con.Open()
                     Dim n As Integer = cmd.ExecuteNonQuery
-                    IDcardTableAdapter.Update(IdCard_DBDataSet)
                     con.Close()
                     If (n > 0) Then
                         MessageBox.Show("Record Successfully inserted !!", "Insert Result", MessageBoxButtons.OK, MessageBoxIcon.Information)
@@ -314,7 +313,6 @@ Public Class HomeScreen
                     conv_logo()
                     con.Open()
                     Dim n As Integer = cmd.ExecuteNonQuery
-                    IDcardTableAdapter.Update(IdCard_DBDataSet)
                     con.Close()
 
                     If (n > 0) Then
@@ -352,8 +350,6 @@ Public Class HomeScreen
                 If (n > 0) Then
                     MessageBox.Show("Record Successfully Deleted!!", "Delete", MessageBoxButtons.OK, MessageBoxIcon.Information)
                     loaddata()
-                    IdCard_DBDataSet.Clear()
-                    IDcardTableAdapter.Update(IdCard_DBDataSet)
                 Else
                     MessageBox.Show("Record Not Found!!", "Delete", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
 

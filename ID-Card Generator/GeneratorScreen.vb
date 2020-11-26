@@ -75,7 +75,7 @@ Public Class GeneratorScreen
                 Exit Sub
 
             End If
-            strCon = "Data Source=.;AttachDbFilename=C:\Users\THOR\Documents\Visual Studio 2010\Projects\ID-Card Generator\ID-Card Generator\IdCard_DB.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True"
+            strCon = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\IDCardGenDB.mdf;Integrated Security=True"
             strQuery = "Select * from IDcard where Roll =" + (Roll2).ToString
             con = New SqlConnection(strCon)
             con.ConnectionString = strCon

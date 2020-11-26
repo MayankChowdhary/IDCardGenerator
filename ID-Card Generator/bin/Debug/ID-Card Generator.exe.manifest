@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="ID-Card Generator.exe" version="2.0.0.57" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
+  <asmv1:assemblyIdentity name="ID-Card Generator.exe" version="2.0.0.58" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="x86" type="win32" />
   <description asmv2:iconFile="User.ico" asmv2:publisher="MC-Technologies" asmv2:product="ID-Card Generator" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -44,14 +44,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ID-Card Generator.exe" size="2601472">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ID-Card Generator.exe" size="2605056">
       <assemblyIdentity name="ID-Card Generator" version="2.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>u+hnDGtUW76iuMRMY7OfZ27IEfs=</dsig:DigestValue>
+        <dsig:DigestValue>zmcTiojWlatFleTC3weIh6AuSJk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -67,31 +67,31 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="ID-Card Generator.exe.config" size="1705">
+  <file name="ID-Card Generator.exe.config" size="1982">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>MClM51QyHeV9UdRYi8WlE8SGWy0=</dsig:DigestValue>
+      <dsig:DigestValue>iE9+okfQQCMGu4op5ybWZbw7XJc=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="IdCard_DB.mdf" size="7602176" writeableType="applicationData">
+  <file name="IDCardGenDB.mdf" size="8388608" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>LnZ1tcvSZg4/y1/jRxv56C7ArnE=</dsig:DigestValue>
+      <dsig:DigestValue>H2aA1kZD0uQMppQ1y4+EgAnAlzo=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="IdCard_DB_log.LDF" size="516096" writeableType="applicationData">
+  <file name="IDCardGenDB_log.ldf" size="8388608" writeableType="applicationData">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>IKbJ33SAJAIYtg7l8f1tAL+D/8c=</dsig:DigestValue>
+      <dsig:DigestValue>8m2YGZmsQE6OB087PR/HGg+lhcw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="User.ico" size="167455">

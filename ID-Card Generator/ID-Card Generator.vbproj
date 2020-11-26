@@ -28,7 +28,7 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ProductName>ID-Card Generator</ProductName>
     <PublisherName>MC-Technologies</PublisherName>
-    <ApplicationRevision>57</ApplicationRevision>
+    <ApplicationRevision>58</ApplicationRevision>
     <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>true</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -130,10 +130,10 @@
     <Compile Include="DatabaseScreen.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="IDCard_DBDataSet.Designer.vb">
+    <Compile Include="IDCardGenDBDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>IDCard_DBDataSet.xsd</DependentUpon>
+      <DependentUpon>IDCardGenDBDataSet.xsd</DependentUpon>
     </Compile>
     <Compile Include="SplashScreen.Designer.vb">
       <DependentUpon>SplashScreen.vb</DependentUpon>
@@ -181,16 +181,16 @@
     <None Include="app.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="IDCard_DBDataSet.xsc">
-      <DependentUpon>IDCard_DBDataSet.xsd</DependentUpon>
+    <None Include="IDCardGenDBDataSet.xsc">
+      <DependentUpon>IDCardGenDBDataSet.xsd</DependentUpon>
     </None>
-    <None Include="IDCard_DBDataSet.xsd">
+    <None Include="IDCardGenDBDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>IDCard_DBDataSet.Designer.vb</LastGenOutput>
+      <LastGenOutput>IDCardGenDBDataSet.Designer.vb</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="IDCard_DBDataSet.xss">
-      <DependentUpon>IDCard_DBDataSet.xsd</DependentUpon>
+    <None Include="IDCardGenDBDataSet.xss">
+      <DependentUpon>IDCardGenDBDataSet.xsd</DependentUpon>
     </None>
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
@@ -216,12 +216,12 @@
     <None Include="Resources\User.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <Content Include="IdCard_DB.mdf">
+    <Content Include="IDCardGenDB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="IdCard_DB_log.LDF">
-      <DependentUpon>IdCard_DB.mdf</DependentUpon>
+    <Content Include="IDCardGenDB_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>IDCardGenDB.mdf</DependentUpon>
     </Content>
     <Content Include="User.ico" />
   </ItemGroup>
@@ -241,9 +241,9 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+    <BootstrapperPackage Include="Microsoft.SqlServer.SqlLocalDB.15.0">
       <Visible>False</Visible>
-      <ProductName>SQL Server 2008 Express</ProductName>
+      <ProductName>SQL Server 2019 Express LocalDB</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.VisualBasic.PowerPacks.10.0">

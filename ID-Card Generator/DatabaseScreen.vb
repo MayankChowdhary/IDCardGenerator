@@ -6,17 +6,19 @@ Public Class DatabaseScreen
     Dim adapter As SqlDataAdapter
     Dim ds As New DataSet
     Dim rno As Integer
-    Dim strSQLConn As String = "Data Source=.;AttachDbFilename=C:\Users\THOR\Documents\Visual Studio 2010\Projects\ID-Card Generator\ID-Card Generator\IdCard_DB.mdf;Integrated Security=True;Connect Timeout=30;User Instance=True"
+    Dim strSQLConn As String = "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\IDCardGenDB.mdf;Integrated Security=True"
     Dim strQuery As String = "Select  * from IDcard"
     Public Roll As Integer
 
 
     Private Sub DatabaseScreen_Load_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        'TODO: This line of code loads data into the 'IDCardGenDBDataSet.IDcard' table. You can move, or remove it, as needed.
+        Me.IDcardTableAdapter.Fill(Me.IDCardGenDBDataSet.IDcard)
+        'TODO: This line of code loads data into the 'IDCardGenDBDataSet.IDcard' table. You can move, or remove it, as needed.
         Me.CenterToScreen()
 
         Try
             'TODO: This line of code loads data into the 'IdCard_DBDataSet1.IDcard' table. You can move, or remove it, as needed.
-            Me.IDcardTableAdapter.Fill(Me.IdCard_DBDataSet.IDcard)
             con = New SqlConnection(strSQLConn)
             cmd = New SqlCommand(strQuery, con)
             con.ConnectionString = strSQLConn

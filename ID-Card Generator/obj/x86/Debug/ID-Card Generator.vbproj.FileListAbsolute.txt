@@ -29,8 +29,6 @@ D:\ProjectBackups\Visual Studio 2010\Projects\ID-Card Generator\ID-Card Generato
 D:\ProjectBackups\Visual Studio 2010\Projects\ID-Card Generator\ID-Card Generator\obj\x86\Debug\ID-Card Generator.exe
 D:\ProjectBackups\Visual Studio 2010\Projects\ID-Card Generator\ID-Card Generator\obj\x86\Debug\ID-Card Generator.xml
 D:\ProjectBackups\Visual Studio 2010\Projects\ID-Card Generator\ID-Card Generator\obj\x86\Debug\ID-Card Generator.pdb
-C:\Users\THOR\Documents\Visual Studio 2010\Projects\ID-Card Generator\ID-Card Generator\bin\Debug\IdCard_DB.mdf
-C:\Users\THOR\Documents\Visual Studio 2010\Projects\ID-Card Generator\ID-Card Generator\bin\Debug\IdCard_DB_log.LDF
 C:\Users\THOR\Documents\Visual Studio 2010\Projects\ID-Card Generator\ID-Card Generator\bin\Debug\Resources\User.ico
 C:\Users\THOR\Documents\Visual Studio 2010\Projects\ID-Card Generator\ID-Card Generator\bin\Debug\ID-Card Generator.exe.config
 C:\Users\THOR\Documents\Visual Studio 2010\Projects\ID-Card Generator\ID-Card Generator\bin\Debug\ID-Card Generator.exe.manifest
@@ -54,3 +52,5 @@ C:\Users\THOR\Documents\Visual Studio 2010\Projects\ID-Card Generator\ID-Card Ge
 C:\Users\THOR\Documents\Visual Studio 2010\Projects\ID-Card Generator\ID-Card Generator\obj\x86\Debug\ID-Card Generator.exe
 C:\Users\THOR\Documents\Visual Studio 2010\Projects\ID-Card Generator\ID-Card Generator\obj\x86\Debug\ID-Card Generator.xml
 C:\Users\THOR\Documents\Visual Studio 2010\Projects\ID-Card Generator\ID-Card Generator\obj\x86\Debug\ID-Card Generator.pdb
+C:\Users\THOR\Documents\Visual Studio 2010\Projects\ID-Card Generator\ID-Card Generator\bin\Debug\IDCardGenDB.mdf
+C:\Users\THOR\Documents\Visual Studio 2010\Projects\ID-Card Generator\ID-Card Generator\bin\Debug\IDCardGenDB_log.ldf

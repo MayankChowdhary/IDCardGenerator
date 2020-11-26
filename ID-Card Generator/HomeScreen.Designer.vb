@@ -84,8 +84,6 @@ Partial Class HomeScreen
         Me.ComboBox2 = New System.Windows.Forms.ComboBox()
         Me.GroupBox5 = New System.Windows.Forms.GroupBox()
         Me.GroupBox4 = New System.Windows.Forms.GroupBox()
-        Me.IdCard_DBDataSet = New WindowsApplication1.IdCard_DBDataSet()
-        Me.IDcardTableAdapter = New WindowsApplication1.IdCard_DBDataSetTableAdapters.IDcardTableAdapter()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.GroupBox1.SuspendLayout()
@@ -99,7 +97,6 @@ Partial Class HomeScreen
         Me.GroupBox7.SuspendLayout()
         Me.GroupBox5.SuspendLayout()
         Me.GroupBox4.SuspendLayout()
-        CType(Me.IdCard_DBDataSet, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Label1
@@ -849,12 +846,9 @@ Partial Class HomeScreen
         '
         'IdCard_DBDataSet
         '
-        Me.IdCard_DBDataSet.DataSetName = "IdCard_DBDataSet"
-        Me.IdCard_DBDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema
         '
         'IDcardTableAdapter
         '
-        Me.IDcardTableAdapter.ClearBeforeFill = True
         '
         'HomeScreen
         '
@@ -888,7 +882,6 @@ Partial Class HomeScreen
         Me.GroupBox7.PerformLayout()
         Me.GroupBox5.ResumeLayout(False)
         Me.GroupBox4.ResumeLayout(False)
-        CType(Me.IdCard_DBDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -918,8 +911,6 @@ Partial Class HomeScreen
     Friend WithEvents Button5 As System.Windows.Forms.Button
     Friend WithEvents Button6 As System.Windows.Forms.Button
     Friend WithEvents ImageList1 As System.Windows.Forms.ImageList
-    Friend WithEvents IdCard_DBDataSet As WindowsApplication1.IdCard_DBDataSet
-    Friend WithEvents IDcardTableAdapter As WindowsApplication1.IdCard_DBDataSetTableAdapters.IDcardTableAdapter
     Friend WithEvents Label11 As System.Windows.Forms.Label
     Friend WithEvents TextBox9 As System.Windows.Forms.TextBox
     Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
