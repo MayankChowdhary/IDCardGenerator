@@ -5,8 +5,6 @@ Download windows installer setup file: https://github.com/MayankChowdhary/IDCard
 
 <table style="width:100%">
   <tr>
-    <td><img src="https://github.com/MayankChowdhary/IDCardGenerator/blob/master/screenshots/IDCard0.png" >
-    </td>
     <td><img src="https://github.com/MayankChowdhary/IDCardGenerator/blob/master/screenshots/IDCard1.png" >
     </td>
 </tr>
