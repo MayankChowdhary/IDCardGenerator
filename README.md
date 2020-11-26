@@ -29,7 +29,7 @@ Download windows installer setup file: https://github.com/MayankChowdhary/IDCard
   <tr>
     <td><img src="https://github.com/MayankChowdhary/IDCardGenerator/blob/master/screenshots/IDCard5.png" >
 </td>
-    <td><img src="https://github.com/MayankChowdhary/IDCardGenerator/blob/master/screenshots/IDCard7.png" >
+     <td><img src="https://github.com/MayankChowdhary/IDCardGenerator/blob/master/screenshots/IDCard2.png" >
 </td>
 </tr>
 </table>
